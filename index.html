@@ -20,7 +20,7 @@
 			background: linear-gradient(to right, rgba(255,93,177,1) 0%, rgba(239,1,124,1) 100%);
 			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5db1', endColorstr='#ef017c', GradientType=1 );
 			color: #fff;
-			font-family: Helvetica;
+			font-family: Helvetica, sans-serif;
 		}
 		#center-container {
 			height: 100%;
@@ -28,11 +28,17 @@
 			flex-direction: column;
 			justify-content: space-around;
 			-webkit-justify-content: space-around;
-
 		}
 		#center-container > div {
 			text-align: center;
 			font-size: 2rem;
+			display: inline-block;
+			margin: 0 auto;
+			transition: transform 0.5s;
+		}
+
+		#center-container > div:hover {
+			transform: scale(1.1);
 		}
 
 		.large {
