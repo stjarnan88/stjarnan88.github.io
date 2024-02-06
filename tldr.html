@@ -1,0 +1,70 @@
+<html>
+<head>
+  <script type="text/javascript" src="vanilla-calendar.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="vanilla-calendar.layout.min.css">
+  <link rel="stylesheet" type="text/css" href="light.min.css">
+	<title>Cecilia Popescu</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</heAD>
+<BODY>
+	<div id="wrapper">	
+		<div id="meny"> 
+			<a href="index.html">Start</a>
+      <a href="tldr.html">TLDR</a>
+		</div>
+		<div id="box">
+		<div id="content">
+			
+      <center>
+      <p> Kände du bara åååh nej TL;DR? </p>
+      <p> Fööör mycket info på hemsidan, puh</p>
+      <p> Boka då in ett 48h möte för kortare genomgång</p>
+      <p> Vi ses och hörs!</p>
+
+  <div id="calendar"></div>
+
+			
+	<div id='fullDiv' >
+  	
+
+	</div>
+  </center>
+
+			
+		</div>
+		</div>
+
+		<div id="footer">
+			<div>Copyright © 2024 Cecilia Popescu</div>
+			<div>info@ceciliapopescu.com</div>
+		</div>
+
+
+
+	</div>
+
+<script type="text/javascript">
+  // Initialize the calendar
+  const calendar = new VanillaCalendar('#calendar',{
+    date: {
+      today: new Date('2024-02-07'),
+      min: '2024-02-01',
+      max: '2024-02-29',
+    },
+  });
+  calendar.init();
+</script>  
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-106143387-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
+
